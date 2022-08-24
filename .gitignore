@@ -1,0 +1,7 @@
+/public/uploads
+/public/uploadsChats
+node_modules
+readme.pdf
+package-lock.json
+tailwind.config.js
+database

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.offline {
+    @apply text-gray-500 text-xs;
+}
+
+.online {
+    @apply text-[#468669] text-xs;
+}
+
+.chat-incoming{
+    word-break: break-word;
+    @apply py-2 px-6 bg-white ;
+    width: fit-content;
+    margin-right: auto;
+    border-radius: 18px 18px 18px 0 ;
+}
+.chat-outgoing {
+    word-break: break-word;
+    @apply py-2 px-4 text-white ;
+    width: fit-content;
+    margin-left: auto;
+    border-radius: 18px 18px 0 18px;
+}
+
+.select2-dropdown {
+    @apply absolute block w-auto box-border bg-white border-solid border-2 border-gray-600 z-50 float-left;
+}
